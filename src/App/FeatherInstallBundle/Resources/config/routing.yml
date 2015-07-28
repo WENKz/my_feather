@@ -1,0 +1,19 @@
+app_feather_install:
+    path:     /install
+    defaults: { _controller: AppFeatherInstallBundle:Install:install }
+
+app_feather_install_step:
+    path:     /install/step
+    defaults: { _controller: AppFeatherInstallBundle:Install:step }
+
+app_feather_install_process:
+    path:     /install/process
+    defaults: { _controller: AppFeatherInstallBundle:Install:process }
+
+app_feather_install_process_exec:
+    path:     /install/process/exec
+    defaults: { _controller: AppFeatherInstallBundle:Install:processexec }
+
+app_feather_install_step_final:
+    path:     /install/congratulation
+    defaults: { _controller: AppFeatherInstallBundle:Install:stepfinal }
