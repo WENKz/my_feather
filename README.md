@@ -12,7 +12,7 @@ Installation ( BETA )
 ========================
 
 Executer la commande suivante dans votre terminal:<br>
-wget https://github.com/WENKz/feather/archive/master.zip && unzip master.zip && mv feather-master /usr/share/feather && chmod 0777 /usr/share/feather
+wget https://github.com/WENKz/my_feather/archive/master.zip && unzip my_feather-master.zip && mv my_feather-master /usr/share/feather && chmod 0777 /usr/share/feather
 <pre>
 apt-get install -y php5 php5-curl apache2 transmission-daemon git
 </pre>
